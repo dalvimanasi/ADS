@@ -1,7 +1,7 @@
 [client]
 user=""
 password=""
-host=zillowdb.ciw9xte70vcm.us-east-1.rds.amazonaws.com
+host=zillow.ccn3m9bbdf3i.us-east-1.rds.amazonaws.com
 AWS_ACCESS_KEY_ID=""
 AWS_SECRET_ACCESS_KEY=""
 

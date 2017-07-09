@@ -21,7 +21,7 @@ mysql = MySQL()
 app.config['MYSQL_DATABASE_USER'] = ''
 app.config['MYSQL_DATABASE_PASSWORD'] = ''
 app.config['MYSQL_DATABASE_DB'] = 'zillowdb'
-app.config['MYSQL_DATABASE_HOST'] = 'zillowdb.ciw9xte70vcm.us-east-1.rds.amazonaws.com'
+app.config['MYSQL_DATABASE_HOST'] = 'zillow.ccn3m9bbdf3i.us-east-1.rds.amazonaws.com'
 mysql.init_app(app)
 conn = mysql.connect()
 
