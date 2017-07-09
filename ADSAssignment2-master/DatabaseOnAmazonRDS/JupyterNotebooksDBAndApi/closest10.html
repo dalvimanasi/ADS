@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster-src.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_4295b851a3c64f57b610d67a89a0ef68 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4295b851a3c64f57b610d67a89a0ef68" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var southWest = L.latLng(-90, -180);
+                var northEast = L.latLng(90, 180);
+                var bounds = L.latLngBounds(southWest, northEast);
+            
+
+            var map_4295b851a3c64f57b610d67a89a0ef68 = L.map(
+                                  'map_4295b851a3c64f57b610d67a89a0ef68',
+                                  {center: [34.4450836,-118.53683210000001],
+                                  zoom: 15,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_2dff28c0083f412192020b64582fede5 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    continuousWorld: false,
+                    noWrap: false,
+                    attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_4295b851a3c64f57b610d67a89a0ef68);
+
+        
+    
+
+            var marker_be30d6e43000439f845a33103343f462 = L.marker(
+                [34.445143,-118.536716],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_4295b851a3c64f57b610d67a89a0ef68);
+            
+    
+            var popup_5acf1e92fb204352ac02637900ed384d = L.popup({maxWidth: '300'});
+
+            
+                var html_db7172c3dd5c458eb2d7595e76e65562 = $('<div id="html_db7172c3dd5c458eb2d7595e76e65562" style="width: 100.0%; height: 100.0%;">Distance : 155.27 metres. Parcel ID : 11112172. Neighborhood : . City : Valencia. Zipcode : 91354</div>')[0];
+                popup_5acf1e92fb204352ac02637900ed384d.setContent(html_db7172c3dd5c458eb2d7595e76e65562);
+            
+
+            marker_be30d6e43000439f845a33103343f462.bindPopup(popup_5acf1e92fb204352ac02637900ed384d);
+
+            
+        
+    
+
+            var marker_653f346bf9fa4c7486ba1615fd37a4f7 = L.marker(
+                [34.444991,-118.536791],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_4295b851a3c64f57b610d67a89a0ef68);
+            
+    
+            var popup_21dc518ca53a4295b2521d62741c06ca = L.popup({maxWidth: '300'});
+
+            
+                var html_6006843d2ebe4dbaa63fad90c13277e4 = $('<div id="html_6006843d2ebe4dbaa63fad90c13277e4" style="width: 100.0%; height: 100.0%;">Distance : 165.566 metres. Parcel ID : 11112134. Neighborhood : . City : Valencia. Zipcode : 91354</div>')[0];
+                popup_21dc518ca53a4295b2521d62741c06ca.setContent(html_6006843d2ebe4dbaa63fad90c13277e4);
+            
+
+            marker_653f346bf9fa4c7486ba1615fd37a4f7.bindPopup(popup_21dc518ca53a4295b2521d62741c06ca);
+
+            
+        
+    
+
+            var marker_49c0de53787d4c118efed9af6bb61c0e = L.marker(
+                [34.444853,-118.536871],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_4295b851a3c64f57b610d67a89a0ef68);
+            
+    
+            var popup_506a28a4d5f6423fbcc410a48f454f29 = L.popup({maxWidth: '300'});
+
+            
+                var html_aee5a9b4a4c34e508d1e180a03d3ee26 = $('<div id="html_aee5a9b4a4c34e508d1e180a03d3ee26" style="width: 100.0%; height: 100.0%;">Distance : 177.427 metres. Parcel ID : 11112135. Neighborhood : . City : Valencia. Zipcode : 91354</div>')[0];
+                popup_506a28a4d5f6423fbcc410a48f454f29.setContent(html_aee5a9b4a4c34e508d1e180a03d3ee26);
+            
+
+            marker_49c0de53787d4c118efed9af6bb61c0e.bindPopup(popup_506a28a4d5f6423fbcc410a48f454f29);
+
+            
+        
+    
+
+            var marker_45ac0df74e8e4acd897f19cbdf936bf5 = L.marker(
+                [34.445282,-118.536978],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_4295b851a3c64f57b610d67a89a0ef68);
+            
+    
+            var popup_c1575c6db2a34832a9e0cce5e8847679 = L.popup({maxWidth: '300'});
+
+            
+                var html_abd3bf152f294fa08d13c7efab921346 = $('<div id="html_abd3bf152f294fa08d13c7efab921346" style="width: 100.0%; height: 100.0%;">Distance : 184.087 metres. Parcel ID : 11112171. Neighborhood : . City : Valencia. Zipcode : 91354</div>')[0];
+                popup_c1575c6db2a34832a9e0cce5e8847679.setContent(html_abd3bf152f294fa08d13c7efab921346);
+            
+
+            marker_45ac0df74e8e4acd897f19cbdf936bf5.bindPopup(popup_c1575c6db2a34832a9e0cce5e8847679);
+
+            
+        
+    
+
+            var marker_fabe1b343a66491db72647a1d0ea6504 = L.marker(
+                [34.444742,-118.536989],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_4295b851a3c64f57b610d67a89a0ef68);
+            
+    
+            var popup_9a9da95be35d43adac374add03b24bd4 = L.popup({maxWidth: '300'});
+
+            
+                var html_1df8a82dbaf94a758877b0e5f9f9b327 = $('<div id="html_1df8a82dbaf94a758877b0e5f9f9b327" style="width: 100.0%; height: 100.0%;">Distance : 193.35 metres. Parcel ID : 11112136. Neighborhood : . City : Valencia. Zipcode : 91354</div>')[0];
+                popup_9a9da95be35d43adac374add03b24bd4.setContent(html_1df8a82dbaf94a758877b0e5f9f9b327);
+            
+
+            marker_fabe1b343a66491db72647a1d0ea6504.bindPopup(popup_9a9da95be35d43adac374add03b24bd4);
+
+            
+        
+    
+
+            var marker_e25727de51c74306a96ad472801422a0 = L.marker(
+                [34.444185,-118.536839],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_4295b851a3c64f57b610d67a89a0ef68);
+            
+    
+            var popup_074db92819e14dd492309d85a619bd38 = L.popup({maxWidth: '300'});
+
+            
+                var html_7f92e26ad1194a939dcce80031e3d66b = $('<div id="html_7f92e26ad1194a939dcce80031e3d66b" style="width: 100.0%; height: 100.0%;">Distance : 205.373 metres. Parcel ID : 11112157. Neighborhood : . City : Valencia. Zipcode : 91354</div>')[0];
+                popup_074db92819e14dd492309d85a619bd38.setContent(html_7f92e26ad1194a939dcce80031e3d66b);
+            
+
+            marker_e25727de51c74306a96ad472801422a0.bindPopup(popup_074db92819e14dd492309d85a619bd38);
+
+            
+        
+    
+
+            var marker_f130e77555db4a83b102a66207b391fc = L.marker(
+                [34.444616,-118.537097],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_4295b851a3c64f57b610d67a89a0ef68);
+            
+    
+            var popup_e8b836ecf937417d8158a3a88daf3a85 = L.popup({maxWidth: '300'});
+
+            
+                var html_6f138a5e093f46f4a2af6744ce612f8e = $('<div id="html_6f138a5e093f46f4a2af6744ce612f8e" style="width: 100.0%; height: 100.0%;">Distance : 209.107 metres. Parcel ID : 11112137. Neighborhood : . City : Valencia. Zipcode : 91354</div>')[0];
+                popup_e8b836ecf937417d8158a3a88daf3a85.setContent(html_6f138a5e093f46f4a2af6744ce612f8e);
+            
+
+            marker_f130e77555db4a83b102a66207b391fc.bindPopup(popup_e8b836ecf937417d8158a3a88daf3a85);
+
+            
+        
+    
+
+            var marker_729c139f804f4ad58270819f0537671a = L.marker(
+                [34.443876,-118.536629],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_4295b851a3c64f57b610d67a89a0ef68);
+            
+    
+            var popup_0b93cd0e279c4e1e9ccc31c5bd40ce56 = L.popup({maxWidth: '300'});
+
+            
+                var html_ae5bf530e0854acf9b8ea5e31ae2c857 = $('<div id="html_ae5bf530e0854acf9b8ea5e31ae2c857" style="width: 100.0%; height: 100.0%;">Distance : 209.983 metres. Parcel ID : 11112158. Neighborhood : . City : Valencia. Zipcode : 91354</div>')[0];
+                popup_0b93cd0e279c4e1e9ccc31c5bd40ce56.setContent(html_ae5bf530e0854acf9b8ea5e31ae2c857);
+            
+
+            marker_729c139f804f4ad58270819f0537671a.bindPopup(popup_0b93cd0e279c4e1e9ccc31c5bd40ce56);
+
+            
+        
+    
+
+            var marker_a221f643235d485f9c4676e6f5ea3aee = L.marker(
+                [34.446505,-118.536747],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_4295b851a3c64f57b610d67a89a0ef68);
+            
+    
+            var popup_89a5557117bf468a8ad40a904fec32b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_8d24058791774b059f8b7e948a8bec18 = $('<div id="html_8d24058791774b059f8b7e948a8bec18" style="width: 100.0%; height: 100.0%;">Distance : 211.797 metres. Parcel ID : 11111288. Neighborhood : . City : Valencia. Zipcode : 91354</div>')[0];
+                popup_89a5557117bf468a8ad40a904fec32b2.setContent(html_8d24058791774b059f8b7e948a8bec18);
+            
+
+            marker_a221f643235d485f9c4676e6f5ea3aee.bindPopup(popup_89a5557117bf468a8ad40a904fec32b2);
+
+            
+        
+    
+
+            var marker_9ca33c833df945449ffb8478cf55ef66 = L.marker(
+                [34.446643,-118.536664],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_4295b851a3c64f57b610d67a89a0ef68);
+            
+    
+            var popup_44140a00ff7e4f9bbc136270ed67f5ec = L.popup({maxWidth: '300'});
+
+            
+                var html_a2486fc55ed74a568e770f10bc103877 = $('<div id="html_a2486fc55ed74a568e770f10bc103877" style="width: 100.0%; height: 100.0%;">Distance : 215.807 metres. Parcel ID : 11111283. Neighborhood : . City : Valencia. Zipcode : 91354</div>')[0];
+                popup_44140a00ff7e4f9bbc136270ed67f5ec.setContent(html_a2486fc55ed74a568e770f10bc103877);
+            
+
+            marker_9ca33c833df945449ffb8478cf55ef66.bindPopup(popup_44140a00ff7e4f9bbc136270ed67f5ec);
+
+            
+        
+</script>
